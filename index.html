@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<!--
+  Redaktionelle Suchbegriffe
+  Nebenbegriffe: FSBuy Produktlinks, Sneaker-Größen vergleichen, QC-Fotos prüfen, Versandkosten nach Deutschland.
+  Longtails: FSBuy spreadsheet auf Deutsch erklärt, FSBuy Produktlinks nach Kategorie finden,
+  Produktlink auf richtige Variante prüfen, Sneaker nach Modellnummer vergleichen,
+  Sohlenprofil auf Produktfotos erkennen, Obermaterial von Sneakern vergleichen,
+  Fußlänge in Zentimetern messen, Fußlänge und Einlegesohlenlänge unterscheiden,
+  Hoodie nach Brustweite auswählen, Schulterbreite bei Pullovern messen,
+  Ärmellänge einer Jacke vergleichen, Jacke über einem Pullover anprobieren,
+  Bundweite bei Shorts messen, Innenbeinlänge bei Hosen vergleichen,
+  Oberteil und Hose im Set einzeln wählen, Trikotaufdruck auf Lagerfotos prüfen,
+  Cap nach Kopfumfang auswählen, Schirm und Stickerei einer Cap vergleichen,
+  Ringgröße anhand des Innendurchmessers bestimmen, Kettenlänge samt Verschluss prüfen,
+  QC-Fotos bei neutralem Licht anfragen, Maße auf Lagerfotos ablesen,
+  Paketmaße für Versandkosten vergleichen, Volumengewicht mit Schuhkarton abschätzen.
+  Die ersten zehn Bing-Ergebnisse konnten nicht direkt verifiziert werden.
+-->
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <title>FSBuy spreadsheet – Kategorien, Größen und QC-Fotos</title>
+  <meta name="description" content="FSBuy spreadsheet auf Deutsch erklärt. Öffne zehn Produktkategorien bei HipoBuyFind und prüfe Größen, Produktlinks, QC-Fotos und Versandkosten.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="de_DE">
+  <meta property="og:title" content="FSBuy spreadsheet – Kategorien, Größen und QC-Fotos">
+  <meta property="og:description" content="Zehn Produktkategorien und ein deutscher Leitfaden für Produktlinks, Maße, Lagerfotos und Versandkosten.">
+  <style>
+    :root{color-scheme:light;--paper:#faf5ee;--ink:#26202c;--plum:#3b2447;--accent:#6c355f;--line:#dfd1dc;--white:#fffdf9}
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--paper);color:var(--ink);font:1rem/1.65 system-ui,sans-serif}
+    .wrap{width:min(1120px,calc(100% - 2rem));margin-inline:auto}
+    header,footer{background:var(--plum);color:white}
+    .bar{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:.5rem 1rem;padding-block:.85rem}
+    header a,footer a{color:white}
+    a{color:var(--accent);text-underline-offset:.2em}
+    :focus-visible{outline:3px solid #b66a2d;outline-offset:4px}
+    main{padding-block:1.8rem 3rem}
+    h1,h2,h3{line-height:1.18;margin:0 0 .65em;overflow-wrap:anywhere}
+    h1{font-size:clamp(2.5rem,6vw,5rem);letter-spacing:-.055em;margin-bottom:.3em}
+    h2{font-size:clamp(1.55rem,3vw,2.25rem)}
+    h3{font-size:1.17rem}
+    p{margin:0 0 1em}
+    .intro{max-width:66ch}
+    .categories{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,170px),1fr));gap:.55rem;list-style:none;padding:0;margin:0}
+    .categories a{display:flex;align-items:center;min-height:48px;padding:.55rem .75rem;border:1px solid var(--line);border-radius:.45rem;background:var(--white);font-weight:650}
+    .categories a:hover{background:#f0e4ef}
+    section{margin-top:2.4rem}
+    nav{margin-top:1.35rem}
+    .showcase,.gallery,.guides{display:grid;gap:1rem}
+    .showcase{grid-template-columns:1.35fr 1fr;margin-top:1.2rem}
+    .gallery,.guides{grid-template-columns:repeat(3,minmax(0,1fr))}
+    figure,.panel,.guides article{margin:0;border:1px solid var(--line);border-radius:.7rem;background:var(--white);overflow:hidden}
+    figure img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:contain;background:#f2eaf2}
+    figcaption,.panel,.guides article{padding:1rem}
+    figcaption{font-size:.92rem}
+    .panel{background:#efe3ef}
+    ol{padding-left:1.4rem}
+    li+li{margin-top:.35rem}
+    .categories li{margin:0}
+    .button{display:inline-block;padding:.6rem .9rem;border-radius:.4rem;background:var(--plum);color:white;font-weight:650}
+    details{padding:.75rem 0;border-bottom:1px solid var(--line)}
+    summary{cursor:pointer;font-weight:700}
+    details p{margin:.5rem 0 .15rem}
+    .faq{max-width:76ch}
+    @media(max-width:740px){.showcase,.guides{grid-template-columns:1fr}.gallery{grid-template-columns:repeat(2,minmax(0,1fr))}}
+    @media(max-width:420px){.gallery{grid-template-columns:1fr}}
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@graph":[
+      {
+        "@type":"WebPage",
+        "name":"FSBuy spreadsheet – Kategorien, Größen und QC-Fotos",
+        "description":"Deutscher Leitfaden zu Produktkategorien, Produktlinks, Größen, Lagerfotos und Versandkosten.",
+        "inLanguage":"de",
+        "about":[
+          {"@type":"Thing","name":"FSBuy spreadsheet"},
+          {"@type":"Thing","name":"Produktvergleich und Qualitätskontrolle"}
+        ]
+      },
+      {
+        "@type":"FAQPage",
+        "inLanguage":"de",
+        "mainEntity":[
+          {"@type":"Question","name":"Was ist ein FSBuy spreadsheet?","acceptedAnswer":{"@type":"Answer","text":"Ein FSBuy spreadsheet ist eine tabellarische Sammlung von Produktlinks, die sich nach Kategorien durchsuchen und vergleichen lässt. Auf dieser Seite findest du einen Leitfaden und Kategorie-Einstiege zu HipoBuyFind."}},
+          {"@type":"Question","name":"Wie prüfe ich einen Produktlink?","acceptedAnswer":{"@type":"Answer","text":"Öffne das Angebot und gleiche Modell, Farbe und Größe mit dem Eintrag ab. Prüfe anschließend, ob die gewählte Variante auswählbar ist und zu den Fotos passt."}},
+          {"@type":"Question","name":"Was zeigen QC-Fotos?","acceptedAnswer":{"@type":"Answer","text":"QC-Fotos zeigen den im Lager fotografierten Artikel. Nutze sie, um sichtbare Merkmale wie Nähte, Etiketten, Farben und Maße zu prüfen. Eine Echtheitsprüfung erfordert zusätzliche Nachweise."}},
+          {"@type":"Question","name":"Wie schätze ich Versandkosten nach Deutschland?","acceptedAnswer":{"@type":"Answer","text":"Vergleiche die Versandoptionen für deine Postleitzahl mit dem verpackten Gewicht und den Paketmaßen. Kläre vorab, welche Gebühren und möglichen Einfuhrabgaben bereits berücksichtigt sind."}},
+          {"@type":"Question","name":"Ist diese Seite ein offizieller FSBuy-Katalog?","acceptedAnswer":{"@type":"Answer","text":"Die Seite ist ein unabhängiger Einkaufsleitfaden. Die Kategorie-Links führen zu HipoBuyFind. Die Markenbilder veranschaulichen Produktarten."}}
+        ]
+      }
+    ]
+  }
+  </script>
+<link rel="canonical" href="https://kakobuyfinds.github.io/bobzr/">
+</head>
+<body>
+  <header>
+    <div class="wrap bar">
+      <strong>Einkaufsleitfaden</strong>
+      <a href="https://www.hipobuyfind.com">HipoBuyFind öffnen</a>
+    </div>
+  </header>
+  <main class="wrap">
+    <h1>FSBuy spreadsheet</h1>
+    <p class="intro">Ein FSBuy spreadsheet hilft dir, Produktlinks nach Kategorie zu sortieren und ähnliche Angebote zu vergleichen. Wähle unten eine Kategorie bei HipoBuyFind. Gleiche anschließend die angebotene Variante, ihre Maße und die verfügbaren Fotos mit deiner Auswahl ab.</p>
+
+    <nav aria-labelledby="categories">
+      <h2 id="categories">Produktkategorien bei HipoBuyFind</h2>
+      <ul class="categories">
+        <li><a href="https://hipobuyfind.com/category-911-Shoes.html">Schuhe</a></li>
+        <li><a href="https://hipobuyfind.com/category-912-Hoodies%2FSweaters.html">Hoodies und Pullover</a></li>
+        <li><a href="https://hipobuyfind.com/category-913-T-Shirts.html">T-Shirts</a></li>
+        <li><a href="https://hipobuyfind.com/category-914-Jackets.html">Jacken</a></li>
+        <li><a href="https://hipobuyfind.com/category-915-Pants%2FShorts.html">Hosen und Shorts</a></li>
+        <li><a href="https://hipobuyfind.com/category-916-Headwear.html">Caps und Mützen</a></li>
+        <li><a href="https://hipobuyfind.com/category-917-Sets.html">Bekleidungssets</a></li>
+        <li><a href="https://hipobuyfind.com/category-918-underwear%2Funderpants.html">Unterwäsche</a></li>
+        <li><a href="https://hipobuyfind.com/category-919-Jersey.html">Trikots</a></li>
+        <li><a href="https://hipobuyfind.com/category-920-Accessories.html">Accessoires</a></li>
+      </ul>
+    </nav>
+
+    <div class="showcase">
+      <figure>
+        <img src="https://images.moresneakers.com/nike-air-max-1-photon-dust-wolf-grey-hm9936-001-17204576888781.jpg" width="800" height="600" alt="Hellgrauer Nike Air Max 1 mit sichtbarem Luftpolster in der Seitenansicht" loading="eager" fetchpriority="high" decoding="async">
+        <figcaption>Nike Air Max 1 als Beispiel für den Vergleich von Silhouette, Material und Sohle.</figcaption>
+      </figure>
+      <aside class="panel" aria-labelledby="check">
+        <h2 id="check">Produktlinks in drei Schritten prüfen</h2>
+        <ol>
+          <li>Modellbezeichnung, Farbvariante und Größe im Angebot abgleichen.</li>
+          <li>Maßtabelle und Detailfotos mit einem gut passenden Stück vergleichen.</li>
+          <li>Versandgewicht, Paketmaße und Gesamtkosten vor dem Bezahlen prüfen.</li>
+        </ol>
+        <a class="button" href="https://www.hipobuyfind.com">Zum Katalog von HipoBuyFind</a>
+      </aside>
+    </div>
+
+    <section aria-labelledby="guides">
+      <h2 id="guides">Ratgeber für Auswahl und Versand</h2>
+      <div class="guides">
+        <article>
+          <h3>Sneaker und Kleidung nach Maß auswählen</h3>
+          <p>Beim Sneaker-Vergleich helfen Modellnummer, Sohlenprofil und Obermaterial. Miss deine Fußlänge in Zentimetern und vergleiche sie mit der Angabe für die gewählte Schuhgröße. Prüfe dabei, ob die Tabelle Fußlänge oder Einlegesohlenlänge meint.</p>
+          <p>Miss bei einem passenden Hoodie Brustweite, Schulterbreite und Ärmellänge. Bei einer Jacke für mehrere Lagen zählt der Platz über dem Pullover. Für Hosen und Shorts helfen Bundweite, Innenbeinlänge und Leibhöhe. Kläre bei Sets, ob Oberteil und Hose einzeln gewählt werden können.</p>
+        </article>
+        <article>
+          <h3>QC-Fotos für Trikots, Caps und Schmuck lesen</h3>
+          <p>Vergleiche Trikotaufdruck, Rückenansicht und Nähte mit der gewählten Variante. Bei Caps helfen Kopfumfang, Verschluss und Fotos von Schirm und Stickerei. Prüfe bei Ringen den Innendurchmesser und bei Ketten die Länge samt Verschluss.</p>
+          <p>Bitte bei unklarer Farbe oder fehlenden Details um ein Foto bei neutralem Licht. Ein Maßband im Bild hilft, Breite und Länge einzuordnen. Achte darauf, dass das Maßband gerade liegt und der Nullpunkt zu sehen ist.</p>
+        </article>
+        <article>
+          <h3>Versandkosten nach Deutschland vergleichen</h3>
+          <p>Notiere Warenwert, Inlandsversand, Bearbeitungsgebühren und internationalen Versand getrennt. Wenn ein Versanddienst nach Volumengewicht abrechnet, kann ein großer Schuhkarton den Preis beeinflussen. Vergleiche Optionen mit denselben Paketmaßen und derselben Ziel-Postleitzahl.</p>
+          <p>Prüfe, ob Sendungsverfolgung und Versicherung enthalten sind und wie mögliche Einfuhrabgaben im Angebot ausgewiesen werden. Halte pro Produkt die geprüfte Variante und das Prüfdatum fest, falls sich Preis oder Verfügbarkeit ändern.</p>
+        </article>
+      </div>
+    </section>
+
+    <section aria-labelledby="images">
+      <h2 id="images">Details, die sich auf Fotos vergleichen lassen</h2>
+      <div class="gallery">
+        <figure>
+          <img src="https://au.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-monogram-denim-jacket--FVJA29EFY610_PM2_Front%20view.png?hei=640&amp;wid=640&amp;fmt=webp" width="640" height="640" alt="Blaue Louis-Vuitton-Jeansjacke mit Monogrammmuster und zwei Brusttaschen" loading="lazy" decoding="async">
+          <figcaption>Louis Vuitton · Kragen, Knopfleiste und Brusttaschen an einer Jeansjacke.</figcaption>
+        </figure>
+        <figure>
+          <img src="https://i.ebayimg.com/images/g/mmgAAeSw0m9pfuGE/s-l500.webp" width="500" height="500" alt="Beige Gucci-Cap mit GG-Muster und gebogenem Schirm" loading="lazy" decoding="async">
+          <figcaption>Gucci · Form des Schirms und Verlauf des Musters an einer Cap.</figcaption>
+        </figure>
+        <figure>
+          <img src="https://assets.christiandior.com/is/image/diorprod/R2752HOMSTD990_E01-1?wid=640&amp;hei=640" width="640" height="640" alt="Silberfarbener Dior-Ring mit verschlungenem CD-Motiv" loading="lazy" decoding="async">
+          <figcaption>Dior · Form des Rings und Oberfläche des CD-Motivs.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="faq" aria-labelledby="faq">
+      <h2 id="faq">Häufige Fragen zum FSBuy spreadsheet</h2>
+      <details open>
+        <summary>Was ist ein FSBuy spreadsheet?</summary>
+        <p>Ein FSBuy spreadsheet ist eine tabellarische Sammlung von Produktlinks, die sich nach Kategorien durchsuchen und vergleichen lässt. Auf dieser Seite findest du einen Leitfaden und Kategorie-Einstiege zu HipoBuyFind.</p>
+      </details>
+      <details>
+        <summary>Wie prüfe ich einen Produktlink?</summary>
+        <p>Öffne das Angebot und gleiche Modell, Farbe und Größe mit dem Eintrag ab. Prüfe anschließend, ob die gewählte Variante auswählbar ist und zu den Fotos passt.</p>
+      </details>
+      <details>
+        <summary>Was zeigen QC-Fotos?</summary>
+        <p>QC-Fotos zeigen den im Lager fotografierten Artikel. Nutze sie, um sichtbare Merkmale wie Nähte, Etiketten, Farben und Maße zu prüfen. Eine Echtheitsprüfung erfordert zusätzliche Nachweise.</p>
+      </details>
+      <details>
+        <summary>Wie schätze ich Versandkosten nach Deutschland?</summary>
+        <p>Vergleiche die Versandoptionen für deine Postleitzahl mit dem verpackten Gewicht und den Paketmaßen. Kläre vorab, welche Gebühren und möglichen Einfuhrabgaben bereits berücksichtigt sind.</p>
+      </details>
+      <details>
+        <summary>Ist diese Seite ein offizieller FSBuy-Katalog?</summary>
+        <p>Die Seite ist ein unabhängiger Einkaufsleitfaden. Die Kategorie-Links führen zu HipoBuyFind. Die Markenbilder veranschaulichen Produktarten.</p>
+      </details>
+    </section>
+  </main>
+  <footer>
+    <div class="wrap bar">
+      <span>Unabhängiger Leitfaden für den Produktvergleich</span>
+      <a href="https://www.hipobuyfind.com">HipoBuyFind</a>
+    </div>
+  </footer>
+</body>
+</html>
